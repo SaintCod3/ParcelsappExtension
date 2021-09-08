@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "ParcelsApp Easier Tracker",
+    "description": "Track your parcel without needing to visit the ParcelApp page",
+    "version": "0.1",
+    "developer": {
+        "name": "SaintCod3",
+        "url": "https://github.com/SaintCod3"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": {
+        "default_title": "ParcelsApp Easier Tracker",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icon.png"
+    }
+}
